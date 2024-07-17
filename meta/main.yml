@@ -1,0 +1,27 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: ludus_kali_apps
+  author: PrymalInstynct
+  description: An Ansible Role that will install Pentesting applications onto a Kali Linux minimal OS
+  company: ''
+  license: GPLv3
+  min_ansible_version: "2.10"
+  platforms:
+    - name: EL
+      versions:
+        - "all"
+    - name: Fedora
+      versions:
+        - "all"
+    - name: Debian
+      versions:
+        - "all"
+    - name: Ubuntu
+      versions:
+        - "all"
+  galaxy_tags:
+    - linux
+
+collections: []

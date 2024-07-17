@@ -1,0 +1,16 @@
+---
+- name: Run Patch Repo Meta Data
+  ansible.builtin.apt:
+    update_cache: yes
+
+- name: Apply Patches to Kali Linux
+  ansible.builtin.apt:
+    name: "*"
+    state: latest
+
+- name: Install Kali Linux Pentesting tools
+  ansible.builtin.apt:
+    name:
+      - kali-linux-default
+    state: present
+  become: true
